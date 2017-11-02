@@ -77,10 +77,15 @@ static struct file_operations sama5d36_led_ops = {
 static ssize_t proc_led_read(struct file * file, char __user *buf, size_t count, loff_t *off)
 {
     unsigned char value;
+    char tmbuf[100];
+    count = strlen(tmbuf);
     value = (readl(pio_pdsr) >> 24) & 0x01;
-
-    printk(KERN_EMERG"LED %s\n",value == 1 ? "ON":"OFF");
-    return 0;
+    sprintf(tmbuf, "LED %s\n",value == 1 ? "ON":"OFF");
+    if(copy_to_user(buf, tmbuf, count)){
+        printk(KERN_EMERG"read led state err\n");
+        return -1;
+    }
+    return count;
 }
 
 static ssize_t proc_led_write(struct file *file, const char __user *buf, size_t count, loff_t *off)
