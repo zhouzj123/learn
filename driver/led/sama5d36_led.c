@@ -17,6 +17,7 @@
 #define PIO_OER     0xFFFFFA10
 #define PIO_SODR    0xFFFFFA30
 #define PIO_CODR    0xFFFFFA34
+#define PIO_PDSR    0xFFFFFA3C
 
 #define USER_ROOT_DIR "led"
 #define USER_ENTRY    "led_entry"
@@ -27,7 +28,7 @@ static struct proc_dir_entry *led_entry;
 static int led_major = 250;
 static int led_minor = 0;
 static struct cdev led_cdev;
-static void *pio_per, *pio_oer, *pio_sodr, *pio_codr;
+static void *pio_per, *pio_oer, *pio_sodr, *pio_codr, *pio_pdsr;
 
 static void led_init(void)
 {
@@ -76,8 +77,9 @@ static struct file_operations sama5d36_led_ops = {
 static ssize_t proc_led_read(struct file * file, char __user *buf, size_t count, loff_t *off)
 {
     unsigned char value;
-    value = (readl(pio_sodr) >> 24)&0x01;
-    printk(KERN_EMERG"LEN %s",value == 1 ? "ON":"OFF");
+    value = (readl(pio_pdsr) >> 24) & 0x01;
+
+    printk(KERN_EMERG"LED %s\n",value == 1 ? "ON":"OFF");
     return 0;
 }
 
@@ -106,7 +108,8 @@ static ssize_t proc_led_write(struct file *file, const char __user *buf, size_t 
         printk(KERN_EMERG"cmd invalid\n");
         return -EINVAL;
     }
-    return 0;
+
+    return count;
 }
 
 struct file_operations proc_fops = {
@@ -179,6 +182,7 @@ static int __init sama5d36_led_init(void)
     pio_oer  = ioremap(PIO_OER, 4);
     pio_sodr = ioremap(PIO_SODR,4);
     pio_codr = ioremap(PIO_CODR,4);
+    pio_pdsr = ioremap(PIO_PDSR,4);
 
     led_init();
 
@@ -197,6 +201,7 @@ static void __exit sama5d36_led_exit(void)
     iounmap(pio_oer);
     iounmap(pio_sodr);
     iounmap(pio_codr);
+    iounmap(pio_pdsr);
     proc_led_exit();
     printk(KERN_EMERG"led: driver uninstalled!\n");
 }
