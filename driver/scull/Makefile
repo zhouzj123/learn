@@ -11,7 +11,7 @@ ifneq ($(KERNELRELEASE),)
 scull-objs := main.o pipe.o access.o
 obj-m := scull.o
 else
-KERNELDIR ?= /lib/modules/linux-headers-2.6.10-5/build
+KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 PWD		  := $(shell pwd)
 
 modules:
@@ -20,4 +20,3 @@ endif
 
 clean:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) clean
-	

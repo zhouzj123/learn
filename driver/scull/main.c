@@ -139,7 +139,7 @@ int scull_open(struct inode *inode, struct file *filp)
     dev = container_of(inode->i_cdev, struct scull_dev, cdev);
     filp->private_data = dev;
 
-    if((filp->f_flag & O_ACCMODE) == O_WRONLY){
+    if((filp->f_flags & O_ACCMODE) == O_WRONLY){
         if(down_interruptible(&dev->sem))
             return -ERESTARTSYS;
         scull_trim(dev);
@@ -199,7 +199,7 @@ ssize_t scull_read(struct file *filp, char __user *buf, size_t count, loff_t *f_
     s_pos = rest / quantum; q_pos = rest % quantum;
 
     dptr = scull_follow(dev, item);
-    if(dptr==NULL || ！dptr->data || ！dptr->data[s_pos])
+    if(dptr==NULL || !dptr->data || !dptr->data[s_pos])
         goto out;
     if(count > quantum - q_pos)
         count = quantum - q_pos;
@@ -241,7 +241,7 @@ ssize_t scull_write(struct file *filp, const char __user *buf, size_t count, lof
     }
 
     if(!dptr->data[s_pos]){
-        dptr->data[s_pos] = kmalloc(quantum, GFP_EKRNEL);
+        dptr->data[s_pos] = kmalloc(quantum, GFP_KERNEL);
         if(!dptr->data[s_pos])
             goto out;
     }
@@ -358,13 +358,13 @@ loff_t scull_llseek(struct file *filp, loff_t off, int whence)
     loff_t newpos;
 
     switch(whence){
-    case SEEK_SET:
+    case 0:
         newpos = off;
         break;
-    case SEEK_CUR:
+    case 1:
         newpos = filp->f_pos + off;
         break;
-    case SEEK_END:
+    case 2:
         newpos = dev->size + off;
         break;
     default:
@@ -466,3 +466,6 @@ fail:
 
 module_init(scull_init_module);
 module_exit(scull_cleanup_module);
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("ZHOUZJ");

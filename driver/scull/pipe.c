@@ -75,7 +75,7 @@ static int scull_p_release(struct inode *inode, struct file *filp)
         dev->nreaders--;
     if(filp->f_mode &FMODE_WRITE)
         dev->nwriters--;
-    if(dev->nreaders + dev->nwriters = 0){
+    if(dev->nreaders + dev->nwriters == 0){
         kfree(dev->buffer);
         dev->buffer = NULL;
     }
@@ -168,7 +168,7 @@ static ssize_t scull_p_write(struct file *filp, const char __user *buf, ssize_t 
         return -EFAULT;
     }
     dev->wp += count;
-    if(dev->wp = dev->end)
+    if(dev->wp == dev->end)
         dev->wp = dev->buffer;
     up(&dev->sem);
     wake_up_interruptible(&dev->inq);
@@ -195,7 +195,7 @@ static unsigned int scull_p_poll(struct file *filp, poll_table *wait)
     return mask;
 }
 
-static int scull_p_fasync(int fd, file *filp, int mode)
+static int scull_p_fasync(int fd, struct file *filp, int mode)
 {
     struct scull_pipe *dev = filp->private_data;
     return fasync_helper(fd, filp, mode, &dev->async_queue);
