@@ -236,4 +236,6 @@ void scull_access_cleanup(void)
         scull_trim(&(lptr->device));
         kfree(lptr);
     }
+    unregister_chrdev_region(scull_a_firstdev, SCULL_N_ADEVS);
+    return;
 }
