@@ -229,7 +229,7 @@ static int scull_read_p_mem(char *buf, char **start, off_t offset, int count, in
         if(down_interruptible(&p->sem))
             return -ERESTARTSYS;
         len += sprintf(buf+len, "\nDevice %i: %p\n", i, p);
-        len += sprintf(buf+len, "   Buffer: %p to %p (%i bytes)\n",p->buffer, p->len, p->buffersize);
+        len += sprintf(buf+len, "   Buffer: %p to %p (%i bytes)\n",p->buffer, p->end, p->buffersize);
         len += sprintf(buf+len, "   rp %p   wp %p\n", p->rp, p->wp);
         len += sprintf(buf+len, "   readers %i  writers %i\n",p->nreaders, p->nwriters);
         up(&p->sem);

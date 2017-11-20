@@ -62,7 +62,7 @@ static void *scull_seq_start(struct seq_file *s, loff_t *pos)
         return NULL;
     return scull_devices + *pos;
 }
-static void *scull_seq_next(struct seq_file *s, void *, loff_t *pos)
+static void *scull_seq_next(struct seq_file *s, void *v, loff_t *pos)
 {
     (*pos)++;
     if(*pos >= scull_nr_devs)
@@ -79,7 +79,7 @@ static int scull_seq_show(struct seq_file *s, void *v)
 {
     struct scull_dev *dev = (struct scull_dev *)v;
     struct scull_qset  *d;
-
+    int i;
     if(down_interruptible(&dev->sem))
         return -ERESTARTSYS;
     seq_printf(s, "\nDevice %i: qset %i, q %i, sz %li\n",
@@ -469,3 +469,4 @@ module_exit(scull_cleanup_module);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("ZHOUZJ");
+MODULE_VERSION("V1.0");
