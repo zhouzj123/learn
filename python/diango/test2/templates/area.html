@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>地区</title>
+</head>
+<body>
+    {{ area.atitle }}
+    <hr/>
+    {{ area.aParent.atitle }}
+    <hr/>
+    <ul>
+        {% for a in area.areainfo_set.all %}
+        <l>{{ a.atitle }}</l>
+        {% endfor %}
+    </ul>
+</body>
+</html>

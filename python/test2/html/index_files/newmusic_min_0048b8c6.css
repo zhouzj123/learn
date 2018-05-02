@@ -1,0 +1,498 @@
+.s-newmusic {
+	left: 50%; width: 0px; height: 50px; font-family: arial, "ËÎÌå", sans-serif; position: fixed; z-index: 100; -ms-zoom: 1; _position: absolute;
+}
+.s-newmusic .p-sidebar {
+	left: -30px; top: 0px; width: 30px; height: 38px; color: rgb(255, 255, 255); line-height: 14px; padding-top: 12px; font-size: 13px; position: absolute; z-index: 601; cursor: pointer; -ms-zoom: 1;
+}
+.s-newmusic .p-sidebar .bar-bg {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 50px; position: absolute; opacity: 0.3;
+}
+.s-newmusic .p-sidebar .bar-mask {
+	background: rgb(60, 64, 73); left: 0px; top: 0px; width: 100%; height: 50px; position: absolute;
+}
+.s-newmusic .opacity.p-sidebar .bar-mask {
+	opacity: 0;
+}
+.s-newmusic .p-sidebar:hover .bar-bg {
+	opacity: 0.5;
+}
+.s-newmusic .p-sidebar .bar-text {
+	margin: 0px auto; left: 8px; top: 11px; width: 13px; text-align: center; display: inline-block; position: absolute;
+}
+.s-newmusic .p-sidebar .bar-playing {
+	background: url("../img/playing_ab38c4ca.gif"); left: 5px; top: 15px; width: 17px; height: 17px; display: inline-block; position: absolute; _background: url(../img/playing_ab38c4ca.gif);
+}
+.s-newmusic .icon-pic {
+	background: url("../img/music_248dcae7.png") no-repeat 0px 0px; _background: url(../img/music_ie_cd1797d0.png) no-repeat 0 0;
+}
+.s-newmusic .p-panel {
+	left: 0px; width: 0px; height: 50px; bottom: 0px; overflow: hidden; position: absolute; z-index: 600; -ms-zoom: 1; transform: translateZ(0px); -webkit-transform: translateZ(0); -moz-transform: translateZ(0); -o-transform: translateZ(0); -webkit-backface-visibility: hidden; -webkit-perspective: 1000;
+}
+.s-newmusic .p-panel .p-main-wrapper {
+	left: 0px; width: 100%; height: 50px; display: inline-block; position: absolute; z-index: 4;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area {
+	width: 845px; height: 100%;
+}
+.s-newmusic .bg-group {
+	left: -30px; top: 0px; width: 925px; height: 100%; overflow: hidden; position: absolute;
+}
+.s-newmusic .bg {
+	left: 0px; top: -220px; width: 100%; height: 750px; overflow: scroll !important; position: absolute; z-index: 2; opacity: 1 !important; transform: translateZ(0px); background-size: 100% 100%; -webkit-transform: translateZ(0); -moz-transform: translateZ(0); -o-transform: translateZ(0); -webkit-backface-visibility: hidden; -webkit-perspective: 1000; -webkit-filter: blur(20px); -moz-filter: blur(20px);
+}
+.s-newmusic .bg-mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 3; opacity: 0.25; background-color: rgb(16, 20, 29);
+}
+.s-newmusic .bg-base {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; background-color: rgb(16, 20, 29);
+}
+.s-newmusic .bg-ie {
+	background: url("../img/bg_ie_d349079c.png") no-repeat 0% 0% / 100% 100%; left: 0px; width: 895px; height: 100%; display: none; position: absolute; z-index: 2;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-img {
+	left: 0px; top: 0px; width: 50px; height: 50px; position: absolute; z-index: 4; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-img .icon-pic {
+	opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-img:hover .icon-pic {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area {
+	left: 50px; height: 50px; position: absolute; z-index: 4;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area .p-player-bg {
+	top: 0px; width: 550px; height: 86px; position: absolute; z-index: 2; opacity: 0.3; background-color: rgb(51, 51, 51);
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area .p-share-btn {
+	background-position: -41px -568px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area .lrc-btn {
+	background-position: -32px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area .lrc-btn:hover {
+	background-position: -32px -170px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-main-area .active.lrc-btn {
+	background-position: -32px -170px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-img .p-status.common-music-btn {
+	left: 20px; top: 20px; height: 20px; display: inline-block; position: absolute; z-index: 1; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-pause.common-music-btn {
+	background-position: -44px -98px; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-playing.common-music-btn {
+	background-position: -188px -98px; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-pause.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-playing.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-music-info {
+	margin: 0px 15px 0px 10px; width: 120px; height: 50px; float: left;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-chanel {
+	width: 100%; height: 25px; text-align: left; line-height: 25px; float: left;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-chanel .p-chanel-btn {
+	left: 10px; top: 6px; width: 88px; height: 20px; color: rgb(255, 255, 255); line-height: 20px; font-size: 12px; display: inline-block; position: absolute; cursor: pointer; opacity: 0.75;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-chanel .p-chanel-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-chanel .p-chanel-btn .change-bg {
+	background: url("../img/music_248dcae7.png") no-repeat -149px 0px; left: 0px; top: 0px; width: 100%; height: 20px; display: inline-block; position: absolute; z-index: 1; _background: url(../img/music_ie_cd1797d0.png) no-repeat 0 0;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-chanel .p-chanel-btn .p-chanel-txt {
+	width: 4em; text-align: center; color: rgb(255, 255, 255); margin-left: 26px; display: inline-block; z-index: 2; _color: #000;
+}
+.p-songinfo {
+	width: 100%; height: 25px; text-align: left; color: rgb(255, 255, 255); line-height: 25px; overflow: hidden; font-size: 13px; float: left; white-space: nowrap; position: relative; opacity: 1;
+}
+.p-songinfo-scroll {
+	left: 0px; top: 0px; position: absolute; -ms-zoom: 1;
+}
+.p-songinfo .sep {
+	margin: 0px 3px; color: rgb(255, 255, 255); display: none; opacity: 0.6;
+}
+.p-songinfo .song-name a {
+	color: rgb(255, 255, 255); font-size: 13px;
+}
+.p-songinfo .song-artist .song-author {
+	color: rgb(255, 255, 255); opacity: 0.8;
+}
+.p-songinfo .song-artist .song-author a {
+	color: rgb(255, 255, 255); opacity: 0.8;
+}
+.p-songinfo .song-artist .song-author a:hover {
+	opacity: 1;
+}
+.p-songinfo .song-artist .song-author:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress-wrapper {
+	padding: 19px 0px; width: 336px; margin-top: 5px; float: left; cursor: pointer !important; opacity: 0.8; _width: 304px; _zoom: 1; _font-size: 0;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress-wrapper:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress {
+	width: 336px; height: 2px; text-align: left; overflow: visible; float: left; background-color: rgb(204, 204, 204); _width: 304px; _zoom: 1; _font-size: 0;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress .past {
+	width: 0px; height: 100%; position: relative; background-color: rgb(255, 255, 255); _zoom: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress .progress-icon {
+	background-position: -53px -750px; top: -4px; width: 10px; height: 10px; right: -3px; display: inline-block; position: absolute; cursor: pointer; _zoom: 1; _font-size: 0;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume .progress-icon {
+	background-position: -53px -750px; top: -4px; width: 10px; height: 10px; right: -3px; display: inline-block; position: absolute; cursor: pointer; _zoom: 1; _font-size: 0;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-progress .hover.progress-icon {
+	background-position: -190px -749px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-prev-btn.common-music-btn {
+	background-position: -4px -98px; width: 15px; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-next-btn.common-music-btn {
+	background-position: -83px -98px; margin-right: 22px; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-prev-btn.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-next-btn.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-switch-btn.common-music-btn {
+	background-position: -119px -98px; width: 20px; margin-right: 17px; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-switch-btn.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-mode-single.common-music-btn {
+	background-position: -232px -99px; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-play-mode-single.common-music-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-song-collect {
+	background-position: -6px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-song-collect:hover {
+	background-position: -7px -170px;
+}
+.s-newmusic .p-panel .p-main-wrapper .scale.icon-song-collect {
+	animation:collect-scale 0.3s linear; -webkit-animation: collect-scale .3s 1 linear; -moz-animation: collect-scale .3s 1 linear; -o-animation: collect-scale .3s 1 linear;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-song-collect-ac {
+	background-position: -189px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-song-collect-ac:hover {
+	background-position: -189px -196px; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-wrapper {
+	width: 26px; height: 50px; float: left; position: relative;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-wrapper .p-volume-bg .p-volume-btn {
+	margin: 0px; left: 2px; width: 16px; height: 20px; bottom: 0px; position: absolute; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-on {
+	background-position: -59px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-off {
+	background-position: -59px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-min {
+	background-position: -59px -196px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-on:hover {
+	background-position: -190px -779px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-off:hover {
+	background-position: -190px -779px;
+}
+.s-newmusic .p-panel .p-main-wrapper .icon-volume-min:hover {
+	background-position: -190px -779px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-bg {
+	border-radius: 3px; left: 0px; width: 20px; height: 20px; bottom: 15px; overflow: hidden; position: absolute; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+}
+.s-newmusic .p-panel .p-main-wrapper .hover.p-volume-bg {
+	background: rgb(72, 76, 85); opacity: 0.95;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-line {
+	left: 9px; width: 2px; height: 70px; bottom: 25px; float: left; position: absolute; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-line .p-volume {
+	width: 2px; height: 100%; text-align: left; background-color: rgb(204, 204, 204);
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-line .p-volume .past {
+	width: 100%; height: 0px; bottom: 0px; overflow: visible !important; position: absolute; background-color: rgb(255, 255, 255);
+}
+.s-newmusic .p-panel .p-main-wrapper .time-total {
+	color: rgb(255, 255, 255); line-height: 50px; font-size: 13px; margin-right: 25px; margin-left: 10px; float: left; display: inline-block; opacity: 0.8;
+}
+.s-newmusic .p-panel .p-main-wrapper .common-music-btn {
+	margin: 15px 24px 0px 0px; width: 16px; height: 20px; float: left; display: inline-block; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .other-btn.common-music-btn {
+	margin: 15px 10px 0px 0px; width: 16px; height: 20px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper {
+	width: 20px; height: 50px; float: left; position: relative;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-btn {
+	background-position: -85px -196px; margin: -10px 0px 0px; left: 0px; top: 50%; width: 16px; height: 20px; position: absolute; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-btn:hover {
+	background-position: -85px -171px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel {
+	left: -38px; width: 90px; height: 68px; bottom: 50px; display: none; position: absolute;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel ul {
+	width: 100%; height: 100%;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel ul li {
+	background: rgb(72, 76, 85); width: 100%; height: 34px; text-align: right; color: white; line-height: 34px; font-size: 13px; position: relative; cursor: pointer; opacity: 0.95;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel ul li:hover {
+	background: rgb(57, 61, 69); opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel ul li .common-music-btn {
+	margin: -10px 0px 0px; left: 10px; top: 50%; position: absolute; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-more-wrapper .p-more-panel ul li span.text {
+	margin-right: 30px;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-delete-btn {
+	background-position: -2px -566px;
+}
+.p-more-panel .share-panel-wrapper {
+	background: white; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(204, 204, 204) currentColor rgb(204, 204, 204) rgb(204, 204, 204); padding: 0px 5px; border-image: none; width: 125px; height: 34px; right: 90px; bottom: 0px; display: none; position: absolute; z-index: 9999;
+}
+.p-more-panel .share-panel-wrapper .share-body {
+	width: 100%; height: 100%; letter-spacing: -6px;
+}
+.s-newmusic .share-panel-wrapper .share-body a {
+	background: url("../img/share_015e5d1d.png") no-repeat left top; margin: 7px 0px; width: 20%; height: 20px; letter-spacing: 0px; text-decoration: none; float: left; display: inline-block; cursor: pointer;
+}
+.s-newmusic .share-panel-wrapper .share-body .share-icons-tsina {
+	background-position: left -4px;
+}
+.s-newmusic .share-panel-wrapper .share-body .share-icons-tqq {
+	background-position: left -30px;
+}
+.s-newmusic .share-panel-wrapper .share-body .share-icons-qzone {
+	background-position: left -55px;
+}
+.s-newmusic .share-panel-wrapper .share-body .share-icons-sqq {
+	background-position: left -81px;
+}
+.s-newmusic .share-panel-wrapper .share-body .share-icons-tieba {
+	background-position: left -135px;
+}
+.triangle-down {
+	border-width: 7px; border-style: solid dashed dashed; border-color: rgb(72, 76, 85) transparent transparent; left: 50%; width: 0px; height: 0px; bottom: -14px; line-height: 0; margin-left: -7px; position: absolute;
+}
+.triangle-right {
+	border-width: 7px; border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(255, 255, 255); width: 0px; height: 0px; right: -14px; bottom: 50%; line-height: 0; margin-bottom: -7px; position: absolute;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-close-bg {
+	background: rgb(0, 0, 0); top: 0px; width: 30px; height: 50px; right: 0px; position: absolute; opacity: 0.1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-close-btn {
+	background-position: -125px -196px; margin: 15px 3px; top: 0px; width: 20px; height: 20px; right: 0px; position: absolute; cursor: pointer;
+}
+.s-newmusic .p-panel .p-main-wrapper .down.p-close-btn {
+	background-position: -155px -170px;
+}
+.s-newmusic .s-panel {
+	left: 0px; width: 895px; height: 0px; bottom: 50px; overflow: hidden; position: absolute; z-index: 101;
+}
+.s-newmusic .s-panel .s-panel-bg {
+	background: rgb(60, 64, 73); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; opacity: 0.95;
+}
+.s-newmusic .s-panel .s-panel-wrapper {
+	left: 0px; width: 100%; overflow: hidden; position: absolute;
+}
+.s-newmusic .s-panel .head {
+	padding: 20px 19px 0px 52px; text-align: left; color: rgb(255, 255, 255); font-size: 14px;
+}
+.s-newmusic .s-panel .head .title {
+	color: rgb(255, 255, 255); font-size: 14px; float: left;
+}
+.s-newmusic .s-panel .head .title .count {
+	color: rgb(255, 69, 69);
+}
+.s-newmusic .s-panel .head .mylike a {
+	color: rgb(204, 204, 204); font-size: 13px; margin-right: 33px; float: right; cursor: pointer;
+}
+.s-newmusic .s-panel .head .mylike .like-count {
+	color: rgb(255, 69, 69);
+}
+.s-newmusic .s-panel ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.s-newmusic .s-panel li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.s-newmusic .s-panel li img {
+	vertical-align: middle;
+}
+.s-newmusic .s-panel li .sence-block {
+	display: inline-block;
+}
+.s-newmusic .s-panel li .sence-block-hover {
+	background: rgb(0, 0, 0); border: 1px solid rgb(255, 69, 69); border-image: none; left: 0px; top: 0px; width: 68px; height: 68px; display: none; position: absolute; opacity: 0.3;
+}
+.s-newmusic .s-panel li .sence-block img {
+	cursor: pointer;
+}
+.s-newmusic .s-panel .s-list {
+	width: 900px; float: left;
+}
+.s-newmusic .s-panel .s-list-wrapper {
+	padding: 0px 52px; overflow: hidden; position: relative;
+}
+.s-newmusic .s-panel .s-list li {
+	margin-top: 20px; margin-right: 20px; float: left;
+}
+.s-newmusic .s-panel .s-list .s-item {
+	position: relative;
+}
+.s-newmusic .s-panel .s-list .s-item .s-play-btn {
+	background-position: 0px -440px; left: 19px; top: 19px; width: 32px; height: 32px; display: none; position: absolute; cursor: pointer;
+}
+.s-newmusic .s-panel .s-list li .desc {
+	text-align: center; color: rgb(204, 204, 204); font-size: 13px; margin-top: 10px;
+}
+.s-newmusic .p-panel .next-btn {
+	border: 1px solid rgb(51, 51, 51); border-image: none; width: 50px; height: 50px;
+}
+.s-newmusic .s-panel .close-btn {
+	background-position: -71px -385px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .mtips-wrapper .close-btn {
+	background-position: -71px -385px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .l-panel-wrapper .close-btn {
+	background-position: -71px -385px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .s-panel .close-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .mtips-wrapper .close-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .l-panel-wrapper .close-btn:hover {
+	opacity: 1;
+}
+.s-newmusic .s-panel .prev-page-btn {
+	left: 0px; top: 50%; width: 33px; height: 46px; margin-top: -15px; position: absolute; cursor: pointer;
+}
+.s-newmusic .s-panel .prev-page-btn .prev-page-icon {
+	background-position: -90px -320px; left: 20px; width: 12px; height: 21px; display: inline-block; position: absolute; opacity: 0.8;
+}
+.s-newmusic .s-panel .prev-page-btn:hover .prev-page-icon {
+	opacity: 1;
+}
+.s-newmusic .s-panel .next-page-btn {
+	top: 50%; width: 33px; height: 46px; right: 0px; margin-top: -15px; position: absolute; cursor: pointer;
+}
+.s-newmusic .s-panel .next-page-btn .next-page-icon {
+	background-position: -135px -320px; width: 12px; height: 21px; right: 20px; display: inline-block; position: absolute; cursor: pointer; opacity: 0.8;
+}
+.s-newmusic .s-panel .next-page-btn:hover .next-page-icon {
+	opacity: 1;
+}
+.s-newmusic .l-panel-wrapper {
+	left: 447.5px; top: -60px; width: 306px; height: 50px; margin-left: -153px; display: none; position: absolute; z-index: 100; cursor: move;
+}
+.s-newmusic .l-panel-wrapper .l-panel-area {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 4;
+}
+.s-newmusic .l-panel-wrapper .l-panel-bg {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; opacity: 0.3;
+}
+.s-newmusic .l-panel-wrapper:hover .l-panel-bg {
+	opacity: 0.4;
+}
+.s-newmusic .lyc-wrapper {
+	width: 100%; height: 50px; color: rgb(255, 255, 255); font-family: "Î¢ÈíÑÅºÚ";
+}
+.s-newmusic .lyc-wrapper .l-panel {
+	margin: 9px 0px; height: 32px; line-height: 32px; overflow: hidden; font-size: 18px;
+}
+.s-newmusic .l-panel .ui-lrc-sentence {
+	padding: 0px 20px; color: rgb(255, 255, 255); -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; user-select: none;
+}
+.s-newmusic .l-panel .ui-lrc-current {
+	padding: 0px 20px; color: rgb(255, 255, 255); opacity: 0.99;
+}
+.s-newmusic .l-panel-wrapper .l-header {
+	left: 0px; top: 0px; width: 100%; height: 20px; color: rgb(255, 255, 255); line-height: 20px; overflow: hidden; font-size: 14px; display: none; position: absolute;
+}
+.s-newmusic .s-item .s-playing-wrapper {
+	background-position: -72px -440px; left: 19px; top: 19px; width: 32px; height: 32px; display: none; position: absolute;
+}
+.s-newmusic .p-main-wrapper .ani-heart {
+	background-position: -97px -53px; left: 409px; top: 56px; width: 15px; height: 13px; position: absolute; z-index: 9;
+}
+.s-newmusic .result-tips-wrapper {
+	left: 0px; top: 0px; width: 187px; height: 25px; text-align: center; line-height: 25px; overflow: hidden; display: none; position: absolute; z-index: 102;
+}
+.s-newmusic .result-tips-wrapper div {
+	border: 1px solid rgb(239, 239, 239); border-image: none; background-color: rgb(255, 255, 255);
+}
+.s-newmusic .result-tips-wrapper span {
+	background-position: -196px -76px; left: 5px; top: 6px; width: 14px; height: 14px; display: inline-block; position: absolute;
+}
+.s-tips .s-newmusic .p-sidebar .s-card-plus-tip {
+	background: rgb(255, 255, 255); border: 1px solid rgb(227, 227, 227); border-image: none; left: 0px; width: 230px; height: 45px; text-align: left; bottom: 60px; color: rgb(0, 0, 0); line-height: 1.5em; display: block; position: absolute; z-index: 101; box-shadow: 1px 2px 1px rgba(0,0,0,0.1); -moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.s-tips .s-newmusic .p-sidebar .s-card-plus-tip .wrap {
+	padding: 13px 20px 13px 15px; left: 0px; width: 195px; height: 0px; text-align: center;
+}
+.s-tips .s-newmusic .p-sidebar .s-card-plus-tip .tip-tips span {
+	color: rgb(0, 119, 255); text-decoration: underline;
+}
+.s-tips .s-newmusic .s-card-plus-tip .d.arrow {
+	border-width: 7px; border-style: solid dashed dashed; border-color: rgb(216, 216, 216) transparent transparent; border-image: none; left: 15px; bottom: -14px;
+}
+.s-tips .s-newmusic .s-card-plus-tip .d.arrow em {
+	border-width: 6px; border-style: solid dashed dashed; border-color: rgb(255, 255, 255) transparent transparent; border-image: none; left: -6px; top: -8px; width: 0px; height: 0px; line-height: 0; display: block; position: absolute;
+}
+.s-tips .s-newmusic .p-sidebar .s-card-plus-tip .btn-close {
+	background: url("../img/music_248dcae7.png") no-repeat -120px -385px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; opacity: 0.6; _background: url(../img/music_ie_cd1797d0.png) no-repeat 0 0;
+}
+.s-tips .s-newmusic .p-sidebar .s-card-plus-tip:hover .btn-close {
+	opacity: 1;
+}
+.s-tips .s-newmusic .l-panel-wrapper .s-card-plus-tip {
+	background: rgb(255, 255, 255); border: 1px solid rgb(227, 227, 227); border-image: none; left: 320px; top: 50%; width: 195px; height: 36px; line-height: 36px; margin-top: -18px; display: none; position: absolute; z-index: 101; box-shadow: 1px 2px 1px rgba(0,0,0,0.1); -moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.s-tips .s-newmusic .l-panel-wrapper .s-card-plus-tip .wrap {
+	padding: 0px; left: 0px; width: 185px; height: 0px; text-align: center; font-size: 13px;
+}
+.s-tips .s-newmusic .s-card-plus-tip .arrow {
+	width: 0px; height: 0px; line-height: 0; display: block; position: absolute;
+}
+.s-tips .s-newmusic .s-card-plus-tip .r.arrow {
+	border-width: 7px; border-style: dashed solid dashed dashed; border-color: transparent rgb(216, 216, 216) transparent transparent; border-image: none; left: -14px; top: 50%; margin-top: -7px;
+}
+.s-tips .s-newmusic .s-card-plus-tip .r.arrow em {
+	border-width: 6px; border-style: dashed solid dashed dashed; border-color: transparent rgb(255, 255, 255) transparent transparent; border-image: none; left: -5px; top: 50%; width: 0px; height: 0px; line-height: 0; margin-top: -6px; display: block; position: absolute;
+}
+.s-tips .s-newmusic .l-panel-wrapper .s-card-plus-tip .btn-close {
+	background: url("../img/music_248dcae7.png") no-repeat -120px -385px; top: 5px; width: 16px; height: 16px; right: 5px; position: absolute; opacity: 0.6; _background: url(../img/music_ie_cd1797d0.png) no-repeat 0 0;
+}
+.s-tips .s-newmusic .l-panel-wrapper .s-card-plus-tip:hover .btn-close {
+	opacity: 1;
+}
+.s-newmusic .p-panel .p-main-wrapper .p-volume-bg {
+	background-clip: padding-box; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}

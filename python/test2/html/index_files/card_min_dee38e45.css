@@ -1,0 +1,909 @@
+.s-cardsetting {
+	padding: 22px 25px 0px; border: 1px solid rgb(227, 227, 227); border-image: none; width: 843px; text-align: left; position: relative;
+}
+.main .sui-dialog-cardsetting {
+	border: currentColor; border-image: none; display: none; position: absolute; opacity: 0.98; _height: 186px;
+}
+.sui-dialog-cardsetting {
+	border: currentColor !important; border-image: none !important; opacity: 0.98 !important;
+}
+.sui-dialog-cardsetting .sui-dialog-title {
+	height: 42px; line-height: 42px; text-indent: 21px;
+}
+.s-cardsetting-content .s-mod-item b {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat left top; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat left top;
+}
+.sui-dialog-cardsetting .sui-dialog-close {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat left top; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat left top;
+}
+.s-cardsetting .hide-mods .bg {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat left top; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat left top;
+}
+.s-cardsetting .checked {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat left top; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat left top;
+}
+.s-cardsetting .hide-mods .bg {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -128px -25px; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -128px -25px;
+}
+.sui-dialog-cardsetting .sui-dialog-close {
+	background-position: -92px 0px; width: 20px; height: 20px; right: 12px; cursor: pointer;
+}
+.sui-dialog-cardsetting .sui-dialog-close:hover {
+	background-position: -118px 0px;
+}
+.s-cardsetting .s-cardsetting-set-wrapper {
+	height: 40px;
+}
+.s-cardsetting .s-cardsetting-set {
+	height: 40px;
+}
+.s-cardsetting .hide-mods {
+	color: rgb(34, 34, 34); line-height: 15px; font-size: 13px; margin-top: 10px; margin-right: 21px; margin-left: 10px; float: right; cursor: pointer;
+}
+.s-cardsetting .hide-mods span {
+	vertical-align: middle; display: inline-block;
+}
+.s-cardsetting .hide-mods .bg {
+	width: 14px; height: 14px; margin-right: 7px; vertical-align: middle; display: inline-block;
+}
+.s-cardsetting .choice-border {
+	border: 1px solid rgb(102, 102, 102); border-image: none; width: 12px; height: 12px; line-height: 0; font-size: 0px; margin-top: -1px; margin-right: 7px; vertical-align: middle; _line-height: 14px;
+}
+.s-cardsetting a:active .choice-border {
+	
+}
+.s-cardsetting .checked {
+	background-position: -70px 0px;
+}
+.s-cardsetting a:active .checked {
+	background-position: -50px 0px;
+}
+.s-cardsetting-wrap {
+	height: 121px; border-bottom-color: rgb(240, 240, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.s-cardsetting-wrap .s-cardsetting-left h3 {
+	color: rgb(102, 102, 102); text-indent: 2px; font-size: 12px; font-weight: normal;
+}
+.s-cardsetting-wrap .s-cardsetting-right h3 {
+	color: rgb(102, 102, 102); text-indent: 7px; font-size: 12px; font-weight: normal;
+}
+.s-cardsetting-left {
+	width: 421px; float: left; position: relative; -ms-zoom: 1;
+}
+.s-cardsetting-right {
+	width: 421px; float: right; position: relative; -ms-zoom: 1;
+}
+.s-cardsetting-content {
+	height: 96px; font-size: 0px; _height: 96px;
+}
+.s-cardsetting-right .s-mod-item {
+	margin: 10px 8px; font-size: 12px; display: inline-block; position: relative; cursor: pointer;
+}
+.s-cardsetting-left .s-mod-item {
+	margin: 10px 8px; font-size: 12px; display: inline-block; position: relative; cursor: pointer;
+}
+.s-cardsetting-left .s-mod-item {
+	z-index: 1 !important;
+}
+.s-cardsetting-wrap .s-cardsetting-left .s-mod-icon {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -40px -25px; left: -6px; top: -6px; width: 15px; height: 15px; overflow: hidden; position: absolute; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -40px -25px;
+}
+.s-cardsetting-wrap .s-cardsetting-right .s-mod-icon {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -60px -28px; left: 9px; top: 9px; width: 8px; height: 8px; overflow: hidden; position: absolute; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -60px -28px;
+}
+.s-cardsetting-wrap .s-mod-title {
+	background: rgb(255, 255, 255); width: 53px; height: 24px; text-align: center; color: rgb(34, 34, 34); line-height: 24px; font-size: 12px;
+}
+.s-cardsetting-wrap .s-cardsetting-left .s-mod-title {
+	border: 1px dashed rgb(205, 205, 205); border-image: none;
+}
+.s-cardsetting-wrap .s-cardsetting-right .s-mod-title {
+	border: 1px solid rgb(204, 204, 204); border-image: none; padding-left: 7px;
+}
+.s-cardsetting-wrap .s-mod-se {
+	transition:0.1s ease-in-out; left: 0px; top: 75px; width: 47px; height: 74px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; font-weight: bold; display: block; position: absolute; cursor: pointer; -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;
+}
+.s-cardsetting-wrap .s-mod-use {
+	transition:0.1s ease-in-out; left: 0px; top: 75px; width: 47px; height: 74px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; font-weight: bold; display: block; position: absolute; cursor: pointer; -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;
+}
+.s-cardsetting-wrap .s-mod-bg {
+	transition:0.1s ease-in-out; left: 0px; top: 75px; width: 47px; height: 74px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; font-weight: bold; display: block; position: absolute; cursor: pointer; -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;
+}
+.s-cardsetting-set .scene-recomm-unknown {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -147px -24px; width: 17px; height: 17px; right: 24px; bottom: 13px; font-size: 12px; vertical-align: top; display: inline-block; position: absolute; cursor: pointer; _background: url(../img/mod/card_setting_c0307230.png_ie?v=md5) no-repeat -147px -24px;
+}
+.s-cardsetting-wrap .sui-draggsort-holder {
+	border: 1px dashed rgb(56, 156, 255); border-image: none;
+}
+.s-cardsetting-wrap .s-cardsetting-left .lock {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -150px 5px; border: 1px dashed rgb(205, 205, 205); border-image: none; _background: url(../img/card_setts_fdb17359.png_ie?v=md5) no-repeat -150px 5px;
+}
+.s-cardsetting-wrap .s-mod-bg {
+	background: rgb(0, 0, 0); transition:0.2s ease-in-out; top: 0px; display: block; opacity: 0; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out;
+}
+.s-cardsetting-wrap .s-mod-item b {
+	background-position: -146px top; transition:0.1s ease-in-out; top: 0px; width: 20px; height: 20px; right: 0px; position: absolute; cursor: move; opacity: 0; background-color: rgb(230, 230, 230); -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out;
+}
+.s-cardsetting-wrap .mod-hover.s-mod-item .s-mod-bg {
+	
+}
+.s-cardsetting-wrap .mod-hover.s-mod-item b {
+	opacity: 1;
+}
+.s-cardsetting-left .s-cardsetting-content .mod-hover.s-mod-item .s-mod-se {
+	top: 0px; padding-top: 30px;
+}
+.s-cardsetting-right .s-cardsetting-content .mod-hover.s-mod-item .s-mod-use {
+	top: 0px; padding-top: 40px;
+}
+.s-cardsetting-content .s-mod-tips {
+	background: rgb(255, 255, 255); top: 51.6%; width: 100%; height: 25px; text-align: center; color: rgb(102, 102, 102); line-height: 25px; font-size: 12px; margin-top: -13px; position: absolute;
+}
+.s-cardsetting-left .s-cardsetting-content .s-mod-tips {
+	left: 380px; width: 372px;
+}
+.s-cardsetting-right .s-cardsetting-content .s-mod-tips {
+	left: -432px; width: 380px;
+}
+.sui-tips-scene-recommend {
+	padding: 15px;
+}
+.scene-recommend-content h2 {
+	color: rgb(34, 34, 34); font-size: 12px;
+}
+.scene-recommend-content p {
+	color: rgb(102, 102, 102);
+}
+.scene-recommend-content .title {
+	color: rgb(34, 34, 34);
+}
+.scene-recommend-content .last {
+	padding-top: 5px; margin-top: 5px; border-top-color: rgb(240, 240, 240); border-top-width: 1px; border-top-style: solid;
+}
+.sui-cardsetting-main {
+	position: relative;
+}
+.s-cardsetting-wrap .s-cardsetting-left .mod-hover.s-mod-item .s-mod-title {
+	border: 1px dashed rgb(51, 136, 255); border-image: none; color: rgb(145, 145, 145);
+}
+.s-cardsetting-wrap .s-cardsetting-left .mod-hover.s-mod-item .s-mod-icon {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -21px -25px; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -21px -25px;
+}
+.s-cardsetting-wrap .s-cardsetting-right .mod-hover.s-mod-item .s-mod-icon {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -76px -28px; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -76px -28px;
+}
+.s-cardsetting-wrap .s-cardsetting-right .mod-hover.s-mod-item .s-mod-title {
+	border: 1px solid rgb(51, 136, 255); border-image: none; color: rgb(255, 255, 255); background-color: rgb(51, 136, 255);
+}
+.s-cardsetting-left .s-cardsetting-content {
+	margin-top: 8px; position: relative;
+}
+.s-cardsetting-right .s-cardsetting-content {
+	margin-top: 8px; position: relative;
+}
+.s-cardsetting-left .s-cardsetting-content {
+	margin-left: 85px;
+}
+.sui-dialog-cardsetting {
+	z-index: 3;
+}
+.sui-dialog-cardsetting .noremove-tips {
+	padding: 15px 35px 15px 15px; border: 1px solid rgb(221, 221, 221); border-image: none; left: 82px; top: 10px; width: 218px; height: 52px; color: rgb(51, 51, 51); font-size: 12px; display: none; position: absolute; background-color: rgb(248, 248, 248);
+}
+.sui-dialog-cardsetting .noremove-tips p {
+	line-height: 18px;
+}
+.sui-dialog-cardsetting .noremove-tips .close-icon {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -169px 0px; top: 10px; width: 13px; height: 13px; right: 10px; position: absolute; cursor: pointer; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -169px 0;
+}
+.sui-dialog-cardsetting .drag-tips {
+	padding: 0px 11px; border: 1px solid rgb(221, 221, 221); border-image: none; left: 7px; top: -35px; width: 143px; height: 28px; color: rgb(51, 51, 51); line-height: 28px; font-size: 12px; position: absolute; background-color: rgb(248, 248, 248);
+}
+.sui-dialog-cardsetting .drag-tips a {
+	color: rgb(0, 119, 255); text-decoration: underline; margin-left: 13px; cursor: pointer;
+}
+.sui-dialog-cardsetting .drag-tips b {
+	background: url("../img/mod/card_setting_c0307230.png") no-repeat -91px -26px; left: 22px; top: 26px; width: 15px; height: 10px; position: absolute; _background: url(../img/mod/card_setting_ie_4f4687ea.png) no-repeat -91px -26px;
+}
+.noremove-tips .tips-hide {
+	color: rgb(0, 119, 255); text-decoration: underline; cursor: pointer;
+}
+.sui-dialog-cardsetting .sui-dialog-body {
+	padding: 0px; display: none; position: absolute; background-color: rgb(255, 255, 255); _position: relative; _height: 189px;
+}
+.s-ctner-menus .s-menu-setting .menu-icon-up {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -90px -26px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -90px -26px;
+}
+.s-cardsetting-left .s_mod_myitem {
+	
+}
+.s-cardsetting-left .s_mod_myitem .s-mod-icon {
+	display: none;
+}
+.s-cardsetting-left .s_mod_myitem .s-mod-title {
+	border: 1px solid rgb(205, 205, 205) !important; border-image: none !important; width: 78px; color: rgb(34, 34, 34) !important; cursor: default;
+}
+#s_main {
+	margin: 0px auto; width: 895px; display: block; position: relative;
+}
+.main a {
+	
+}
+.main span {
+	
+}
+.s-mancacrd-main {
+	position: relative; z-index: 2;
+}
+.s-menu-gurd {
+	width: 100%; min-height: 35px; _height: 35px;
+}
+.s-menu-container {
+	width: 100%; min-height: 35px; _height: 35px;
+}
+.s-ctner-menus {
+	margin: 0px auto; width: 893px; height: 39px; text-align: left; line-height: 39px; font-size: 14px; border-top-color: rgb(233, 233, 233); border-right-color: rgb(233, 233, 233); border-left-color: rgb(233, 233, 233); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; position: relative; z-index: 11111;
+}
+.s-skin-hasbg .s-ctner-menus {
+	border: currentColor; border-image: none; width: 895px; height: 39px; line-height: 40px;
+}
+.s-down#s_menu_gurd .s-ctner-menus {
+	border: currentColor; border-image: none; width: 895px; height: 39px; line-height: 40px;
+}
+.s-down#s_menu_gurd {
+	margin-top: -40px; background-image: linear-gradient(rgba(248, 248, 248, 0.95) 0px, rgba(248, 248, 248, 0.95) 100%) !important;
+}
+.s-skin-hasbg .s-ctner-menus {
+	color: rgb(51, 51, 51); border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid; z-index: 1111111111; _background: #fff;
+}
+.s-skin-hasbg .s-down#s_menu_gurd {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.95) 0px, rgba(255, 255, 255, 0.95) 100%) !important;
+}
+.s-skin-hasbg .s-down#s_menu_gurd .s-ctner-menus {
+	
+}
+.s-menu-gurd .s-ctner-menus .s-menu-mine {
+	width: 124px; text-align: left; float: left;
+}
+.s-down .s-menu-gurd .s-ctner-menus .s-menu-mine {
+	margin-top: 0px;
+}
+.s-menu-gurd .s-ctner-menus .s-menu-mine {
+	vertical-align: top; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-menus .s-menu-mine .mine-icon {
+	vertical-align: top; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-menus .s-menu-mine .mine-text {
+	vertical-align: top; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-menus .s-menu-mine .mine-icon {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -15px 0px; margin: 11px 0px 0px 20px; width: 20px; height: 18px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -15px 0;
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-mine .mine-icon {
+	background-position: -15px 1px;
+}
+.s-skin-hasbg .s-top-wrap .s-ctner-menus .current .mine-icon {
+	background-position: -144px 1px;
+}
+.s-skin-hasbg .s-top-wrap .s-ctner-menus .s-menu-mine:hover .mine-icon {
+	background-position: -144px 1px;
+}
+.s-ctner-menus .s-menu-mine:hover .mine-icon {
+	background-position: -144px 0px;
+}
+.s-ctner-menus .current .mine-icon {
+	background-position: -144px 0px;
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-mine:hover .mine-icon {
+	background-position: -46px -55px;
+}
+.s-skin-hasbg .s-ctner-menus .current .mine-icon {
+	background-position: -46px -55px;
+}
+.s-ctner-menus .s-menu-mine .mine-text {
+	height: 100%; margin-left: 3px;
+}
+.s-ctner-menus .s-menus-outer {
+	flex-flow:row wrap; width: 719px; float: left; display: flex; align-items: stretch; -webkit-flex-flow: row wrap; -webkit-align-items: stretch; -moz-flex-flow: row wrap; -moz-align-items: stretch; -ms-align-items: stretch;
+}
+.s-ctner-menus .s-menus-outer .menus-wrapper {
+	width: auto;
+}
+.s-ctner-menus .s-menus-outer .s-bg-space {
+	flex:1 1 auto; height: 38px; -webkit-flex: auto; -moz-flex: auto;
+}
+.s-skin-hasbg .s-ctner-menus .s-menus-outer {
+	width: 721px;
+}
+.s-skin-hasbg .s-ctner-menus .s-menus-outer .s-bg-space {
+	height: 39px;
+}
+.s-ctner-menus .menus-wrapper {
+	height: 100%; vertical-align: top; float: left; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-menus .s-menu-setting {
+	height: 100%; vertical-align: top; float: left; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-menus .s-menu-setting {
+	padding: 0px 21px 0px 11px; width: 18px; float: right; cursor: pointer;
+}
+.s-ctner-menus .menu-icon {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -121px -49px; width: 100%; height: 18px; overflow: hidden; margin-top: 11px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -121px -49px;
+}
+.s-ctner-menus .s-menu-setting:hover .menu-icon {
+	background-position: -121px -73px;
+}
+.s-ctner-menus .s-menu-setting:hover .menu-icon-up {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -121px -72px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -121px -72px;
+}
+.s-skin-hasbg .s-ctner-menus .menu-icon {
+	
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-setting:hover .menu-icon {
+	
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-setting .menu-icon-up {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -90px -72px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -90px -72px;
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-setting:hover .menu-icon-up {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -90px -83px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -90px -83px;
+}
+.s-ctner-menus .s-menu-item {
+	width: 80px; height: 39px; text-align: center; color: rgb(51, 51, 51); vertical-align: top; display: inline-block; cursor: pointer; -ms-zoom: 1;
+}
+.s-skin-hasbg .s-ctner-menus .s-menu-item {
+	height: 39px; color: rgb(51, 51, 51);
+}
+.s-ctner-menus .s-menu-item:hover {
+	margin-top: -1px; margin-bottom: -1px; border-top-color: rgb(179, 182, 187); border-bottom-color: rgb(179, 182, 187); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.s-ctner-menus .s-menu-item:hover {
+	color: rgb(255, 255, 255); filter: none !important; background-image: none !important; background-color: rgb(179, 182, 187) !important;
+}
+.s-top-wrap .s-top-nav .s-ctner-menus .s-menu-item:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.35) 0px, rgba(0, 0, 0, 0.35) 100%) !important; color: rgb(255, 255, 255) !important;
+}
+.s-ctner-menus .current {
+	margin-top: -1px; margin-bottom: -1px; border-top-color: rgb(154, 157, 162); border-bottom-color: rgb(154, 157, 162); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.s-ctner-menus .current:hover {
+	margin-top: -1px; margin-bottom: -1px; border-top-color: rgb(154, 157, 162); border-bottom-color: rgb(154, 157, 162); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.s-ctner-menus .current {
+	color: rgb(255, 255, 255); font-weight: bold; filter: none !important; background-image: none !important; background-color: rgb(154, 157, 162) !important; _position: relative;
+}
+.s-ctner-menus .current:hover {
+	color: rgb(255, 255, 255); font-weight: bold; filter: none !important; background-image: none !important; background-color: rgb(154, 157, 162) !important; _position: relative;
+}
+.s-top-wrap .s-top-nav .s-ctner-menus .current {
+	background: linear-gradient(rgba(0, 0, 0, 0.45) 0px, rgba(0, 0, 0, 0.45) 100%) !important; color: rgb(255, 255, 255) !important;
+}
+.s-top-wrap .s-top-nav .s-ctner-menus .current:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.45) 0px, rgba(0, 0, 0, 0.45) 100%) !important; color: rgb(255, 255, 255) !important;
+}
+.s-top-wrap .s-ctner-menus .current {
+	border: currentColor; border-image: none; margin-top: 0px;
+}
+.s-top-wrap .s-menu-item:hover {
+	border: currentColor; border-image: none; margin-top: 0px;
+}
+.s-skin-hasbg .s-menu-item:hover {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////AAAAVcLTfgAAAAF0Uk5TAEDm2GYAAAAMSURBVHjaYmAACDAAAAIAAU9tWeEAAAAASUVORK5CYII=") !important; margin: 0px; border: currentColor; border-image: none; cursor: pointer;
+}
+.s-skin-hasbg .s-ctner-menus .current {
+	border: currentColor; border-image: none; margin-top: 0px; margin-bottom: 0px;
+}
+.s-ctner-contents {
+	border: 1px solid rgb(233, 233, 233); border-image: none; width: 893px; min-height: 363px; _height: 363px; _overflow: visible;
+}
+.s-skin-hasbg .s-ctner-contents {
+	border: 1px solid transparent; border-image: none; _background-color: #fff; _border: none; _padding: 1px;
+}
+.s-ctner-contents .s-content-load {
+	padding: 150px 0px;
+}
+.s-ctner-contents .s-loading {
+	margin: 0px auto; width: 95%; height: 53px; padding-top: 11px; font-size: 14px; border-top-color: rgb(240, 240, 240); border-top-width: 1px; border-top-style: solid;
+}
+.s-ctner-contents .s-loading img {
+	vertical-align: middle; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-contents .s-loading .load-done {
+	vertical-align: middle; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-contents .s-loading .load-text {
+	vertical-align: middle; display: inline-block; -ms-zoom: 1;
+}
+.s-ctner-contents .s-loading .no-more {
+	color: rgb(153, 153, 153); margin-top: 10px;
+}
+.s-ctner-contents .s-loading .load-done {
+	background: url("../img/card_setts_fdb17359.png") no-repeat 0px -72px; width: 22px; height: 22px; margin-top: 10px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat 0 -72px;
+}
+.s-ctner-contents .s-loading .load-text {
+	margin-left: 10px;
+}
+.s-more-bar {
+	margin: 0px auto; width: 90px; height: 45px; color: rgb(153, 153, 153); padding-top: 20px; cursor: pointer;
+}
+.s-skin-hasbg .s-more-bar {
+	color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.s-ctner-contents .s-more-up {
+	left: 50%; bottom: 0px; padding-top: 0px; margin-left: -45px; position: absolute; z-index: 5;
+}
+.s-ctner-contents .s-more-up .load-text {
+	display: none;
+}
+.s-ctner-contents .s-more-up .rect {
+	background: url("../img/more_up_bg_83c39341.png") no-repeat; left: 50%; width: 57px; height: 32px; bottom: 0px; font-size: 0px; margin-left: -28px; vertical-align: bottom; position: absolute; _background: url(../img/more_up_bg_ie6_8b0a319c.png) no-repeat; _bottom: -2px;
+}
+.s-skin-hasbg .s-ctner-contents .s-more-up .rect {
+	background-position: 0px 0px;
+}
+.s-ctner-contents .rect .animate-arrow {
+	display: none;
+}
+.s-ctner-contents .s-more-up .rect .animate-arrow {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -114px -2px; margin: 0px auto; top: 10px; width: 22px; height: 13px; font-size: 0px; display: block; position: relative; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -114px -2px;
+}
+.s-more-bar .rect {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -1px -36px; margin: 10px auto 0px; border: 0px currentColor; border-image: none; width: 34px; height: 18px; font-size: 0px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -1px -36px;
+}
+.s-skin-hasbg .s-more-bar .rect {
+	background-position: -107px -22px; border-color: rgb(255, 255, 255);
+}
+.s-mancacrd-main .top-feed {
+	left: 50%; width: 51px; bottom: 30px; margin-left: 447px; visibility: hidden; position: fixed; _position: absolute; _bottom: auto; _top: 200px;
+}
+.s-mancacrd-main .has-code.top-feed {
+	top: 613px; bottom: auto;
+}
+.s-mancacrd-main .top-feed .icon-mask {
+	border: 1px solid rgb(227, 227, 227); border-image: none; left: 0px; top: 0px; width: 38px; height: 38px; color: rgb(153, 153, 153); line-height: 38px; font-size: 13px; margin-top: -1px; margin-left: -1px; display: none; position: absolute; z-index: 3; background-color: rgb(238, 238, 238);
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .icon-mask {
+	border: 0px currentColor; border-image: none; width: 40px; height: 40px; color: rgb(255, 255, 255); line-height: 40px;
+}
+.s-mancacrd-main .icon-mask .text {
+	left: 4px; top: 4px; width: 30px; line-height: 16px; position: absolute;
+}
+.s-mancacrd-main .icon-over .icon-mask {
+	display: block;
+}
+.s-mancacrd-main .top-feed .to-top {
+	border: 1px solid rgb(227, 227, 227); border-image: none; width: 38px; height: 25px; padding-top: 12px; position: relative; cursor: pointer; background-color: rgb(250, 250, 250);
+}
+.s-mancacrd-main .top-feed .icon-qrcode {
+	border: 1px solid rgb(227, 227, 227); border-image: none; width: 38px; height: 25px; padding-top: 12px; position: relative; cursor: pointer; background-color: rgb(250, 250, 250);
+}
+.s-mancacrd-main .top-feed .s-qrcode .icon-qrcode {
+	height: 38px; padding-top: 0px;
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .s-qrcode .icon-qrcode {
+	height: 40px;
+}
+.s-mancacrd-main .top-feed .s-qrcode {
+	padding-top: 0px; padding-left: 10px; position: relative;
+}
+.s-mancacrd-main .top-feed .s-qrcode {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////AAAAVcLTfgAAAAF0Uk5TAEDm2GYAAAAMSURBVHjaYmAACDAAAAIAAU9tWeEAAAAASUVORK5CYII=");
+}
+.s-mancacrd-main .top-feed .qrcode-layer-container {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////AAAAVcLTfgAAAAF0Uk5TAEDm2GYAAAAMSURBVHjaYmAACDAAAAIAAU9tWeEAAAAASUVORK5CYII=");
+}
+.s-mancacrd-main .top-feed .qrcode-layer-container {
+	left: 10px; width: 130px; height: 324px; bottom: 41px; display: none; position: absolute; _bottom: 86px; _left: 0;
+}
+.s-mancacrd-main .top-feed .minify .qrcode-layer-container {
+	left: -130px; bottom: -6px; _bottom: 0; _left: -140px;
+}
+.s-mancacrd-main .top-feed .icon-over .qrcode-layer-container {
+	display: block;
+}
+.s-mancacrd-main .top-feed .s-qrcode .qrcode-layer {
+	background: rgb(255, 255, 255); border: 1px solid rgb(233, 233, 233); border-image: none; width: 128px; height: 317px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .qrcode-layer .up-layer {
+	width: 100%; height: 123px; padding-top: 33px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .qrcode-layer .dw-layer {
+	width: 100%; height: 123px; padding-top: 33px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .code-content {
+	background: url("../img/qrcode_1babc032.png") no-repeat; margin: 33px auto 0px; width: 60px; height: 60px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .nuomi-code {
+	background-position: 0px -61px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .code-desc-title {
+	width: 100%; line-height: 23px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .code-desc-content {
+	width: 100%; line-height: 23px;
+}
+.s-mancacrd-main .top-feed .s-qrcode .code-desc-title {
+	color: rgb(76, 76, 76); padding-top: 5px; font-weight: bold;
+}
+.s-mancacrd-main .top-feed .s-qrcode .code-desc-content {
+	color: rgb(153, 153, 153);
+}
+.s-mancacrd-main .top-feed .to-top span {
+	background: url("../img/topfed_c531aae6.png") no-repeat -1px -10px; margin: 0px auto; width: 33px; height: 17px; display: block; _background: url(../img/topfed_ie_a6a8d214.png) no-repeat -1px -10px;
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .to-top span {
+	background-position: -39px -9px;
+}
+.s-mancacrd-main .top-feed .icon-over .icon {
+	background: none;
+}
+.s-mancacrd-main .top-feed .icon-over .icon-qrcode {
+	background: rgb(238, 238, 238);
+}
+.top-feed .s-qrcode .icon-entity {
+	background: url("../img/topfed_c531aae6.png") no-repeat 3px -40px; border: 0px currentColor; border-image: none; width: 100%; height: 100%; _background: url(../img/topfed_ie_a6a8d214.png) no-repeat 3px -40px;
+}
+.s-skin-hasbg .top-feed .s-qrcode .icon-entity {
+	background-position: -44px -39px;
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .icon-qrcode {
+	background: linear-gradient(rgba(0, 0, 0, 0.3) 0px, rgba(0, 0, 0, 0.3) 100%); border: 0px currentColor; border-image: none; width: 40px;
+}
+.s-skin-hasbg .top-feed .to-top {
+	background: linear-gradient(rgba(0, 0, 0, 0.3) 0px, rgba(0, 0, 0, 0.3) 100%); border: 0px currentColor; border-image: none; width: 40px;
+}
+.s-skin-hasbg #s_top_feed .icon-over {
+	background-image: none;
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .icon-over .icon-qrcode {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 100%);
+}
+.s-mancacrd-main .top-feed .to-top {
+	margin: 0px 0px 6px 10px; height: 26px;
+}
+.s-skin-hasbg .s-mancacrd-main .top-feed .to-top {
+	height: 28px;
+}
+.s-skin-hasbg .s-mancacrd-main .icon-mask .text {
+	left: 5px; line-height: 17px;
+}
+.s-skin-hasbg .top-feed .icon-mask {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 100%); margin: 0px;
+}
+.s-skin-hasbg .s-down#s_menu_gurd {
+	border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.subscribe {
+	left: 0px; top: 0px; height: 24px; position: absolute; cursor: pointer; -ms-zoom: 1;
+}
+.subscribe .sub {
+	width: 24px; height: 24px;
+}
+.subscribe .unsub {
+	width: 24px;
+}
+.subscribe .sub-bg {
+	left: 0px; top: 0px; height: 24px; position: absolute; opacity: 0.5; background-color: rgb(0, 0, 0);
+}
+.subscribe .sub .sub-bg {
+	width: 24px;
+}
+.subscribe .unsub .sub-bg {
+	width: 24px;
+}
+.subscribe .sub-star {
+	left: 3px; top: 3px; width: 20px; height: 17px; display: inline-block; position: absolute; z-index: 8;
+}
+.subscribe .unsub .sub-star {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -16px -18px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -16px -18px;
+}
+.subscribe .sub .sub-star {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -47px -56px; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -47px -56px;
+}
+.sub-anistar {
+	left: 0px; top: 0px; width: 38px; height: 28px; position: absolute; z-index: 7;
+}
+.sub-anistar b {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -26px -76px; left: 0px; top: 0px; width: 18px; height: 18px; display: inline-block; position: absolute; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -26px -76px;
+}
+.sub-aniadd {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -64px -72px; left: 0px; top: 0px; width: 21px; height: 21px; display: none; position: absolute; z-index: 9; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -64px -72px;
+}
+.subscribe .sub-txt {
+	left: 33px; top: 7px; color: rgb(204, 204, 204); display: inline-block; position: absolute; z-index: 9;
+}
+.sub-anipic {
+	border-radius: 50%; width: 35px; height: 35px; display: inline-block; position: absolute; z-index: 17; background-size: 35px 35px; -moz-border-radius: 50%; -webkit-border-radius: 50%;
+}
+.sub-anipic .sub-ie-mask {
+	width: 35px; height: 35px;
+}
+.sub-anistaradd {
+	background: url("../img/card_setts_fdb17359.png") no-repeat -24px -76px; left: 0px; top: 0px; width: 21px; height: 21px; display: none; position: absolute; z-index: 99999; _background: url(../img/card_setts_ie_57e87032.png) no-repeat -24px -76px;
+}
+.s-ctner-menus .s-menu-setting {
+	height: 39px;
+}
+.s-menu-gurd .mine-tips {
+	top: -37px; width: 400px; height: 40px; right: 0px; position: absolute;
+}
+.s-menu-gurd .mine-tips .tips-text {
+	background: url("../img/mine_tips_96ce9572.png") no-repeat 0px 0px; top: 2px; width: 300px; height: 25px; right: 27px; position: absolute; cursor: pointer; _background: url(../img/mine_tips_ie_42a7c56c.png) no-repeat 0 0;
+}
+.s-menu-gurd .mine-tips .tips-arrow {
+	background: url("../img/mine_tips_96ce9572.png") no-repeat -4px -118px; width: 18px; height: 16px; right: 51px; bottom: -3px; position: absolute; _background: url(../img/mine_tips_ie_42a7c56c.png) no-repeat -4px -118px;
+}
+.s-menu-gurd .mine-tips .tips-close {
+	background: url("../img/mine_tips_96ce9572.png") no-repeat -66px -120px; top: 8px; width: 18px; height: 16px; right: -4px; position: absolute; cursor: pointer; _background: url(../img/mine_tips_ie_42a7c56c.png) no-repeat -66px -120px;
+}
+.s-menu-gurd .mine-tips .tips-close:hover {
+	background-position: -88px -120px;
+}
+.s-menu-gurd .mine-tips .tips-text:hover {
+	background-position: -1px -26px;
+}
+.s-skin-hasbg .s-menu-gurd .mine-tips .tips-text {
+	background-position: 1px -55px;
+}
+.s-skin-hasbg .s-menu-gurd .mine-tips .tips-arrow {
+	background-position: -34px -117px;
+}
+.s-skin-hasbg .s-menu-gurd .mine-tips .tips-close {
+	background-position: -114px -117px;
+}
+.s-skin-hasbg .s-menu-gurd .mine-tips .tips-text:hover {
+	background-position: -1px -84px;
+}
+.s-skin-hasbg .s-menu-gurd .mine-tips .tips-close:hover {
+	background-position: -139px -117px;
+}
+.s-top-wrap .s-opacity-white-background {
+	filter: none !important; background-image: none !important;
+}
+.s-opacity-0 .s-ctner-menus {
+	border: 1px solid rgba(233, 233, 233, 0.2) !important; border-image: none !important;
+}
+.s-opacity-0 .s-ctner-menus {
+	width: 893px !important;
+}
+.s-opacity-0 .s-ctner-menus .s-menus-outer {
+	width: 719px !important;
+}
+.s-opacity-0 .s-top-wrap .s-ctner-menus {
+	border: currentColor !important; border-image: none !important;
+}
+.s-opacity-0 .s-top-wrap .s-ctner-menus {
+	width: 895px !important;
+}
+.s-opacity-0 .s-top-wrap .s-ctner-menus .s-menus-outer {
+	width: 721px !important;
+}
+.s-opacity-0 #s_mancard_main .s-ctner-contents {
+	border-top-color: transparent !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+.s-opacity-100 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.7) 0px, rgba(240, 240, 240, 0.7) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-95 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.65) 0px, rgba(240, 240, 240, 0.65) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-90 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.6) 0px, rgba(240, 240, 240, 0.6) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-85 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.55) 0px, rgba(240, 240, 240, 0.55) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-80 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.5) 0px, rgba(240, 240, 240, 0.5) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-75 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.45) 0px, rgba(240, 240, 240, 0.45) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-70 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.4) 0px, rgba(240, 240, 240, 0.4) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-65 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.35) 0px, rgba(240, 240, 240, 0.35) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-60 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.3) 0px, rgba(240, 240, 240, 0.3) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-55 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.25) 0px, rgba(240, 240, 240, 0.25) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-50 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.2) 0px, rgba(240, 240, 240, 0.2) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-45 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-10 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-40 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-35 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-30 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-25 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-20 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-15 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-5 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-0 .s-ctner-menus .s-menu-item:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-100 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.8) 0px, rgba(240, 240, 240, 0.8) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-100 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.8) 0px, rgba(240, 240, 240, 0.8) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-95 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.75) 0px, rgba(240, 240, 240, 0.75) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-95 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.75) 0px, rgba(240, 240, 240, 0.75) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-90 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.7) 0px, rgba(240, 240, 240, 0.7) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-90 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.7) 0px, rgba(240, 240, 240, 0.7) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-85 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.65) 0px, rgba(240, 240, 240, 0.65) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-85 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.65) 0px, rgba(240, 240, 240, 0.65) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-80 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.6) 0px, rgba(240, 240, 240, 0.6) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-80 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.6) 0px, rgba(240, 240, 240, 0.6) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-75 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.55) 0px, rgba(240, 240, 240, 0.55) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-75 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.55) 0px, rgba(240, 240, 240, 0.55) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-70 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.5) 0px, rgba(240, 240, 240, 0.5) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-70 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.5) 0px, rgba(240, 240, 240, 0.5) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-65 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.45) 0px, rgba(240, 240, 240, 0.45) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-65 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.45) 0px, rgba(240, 240, 240, 0.45) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-60 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.4) 0px, rgba(240, 240, 240, 0.4) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-60 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.4) 0px, rgba(240, 240, 240, 0.4) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-55 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.35) 0px, rgba(240, 240, 240, 0.35) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-55 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.35) 0px, rgba(240, 240, 240, 0.35) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-50 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.3) 0px, rgba(240, 240, 240, 0.3) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-50 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.3) 0px, rgba(240, 240, 240, 0.3) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-45 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.25) 0px, rgba(240, 240, 240, 0.25) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-45 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.25) 0px, rgba(240, 240, 240, 0.25) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-40 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.2) 0px, rgba(240, 240, 240, 0.2) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-40 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.2) 0px, rgba(240, 240, 240, 0.2) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-35 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-35 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-10 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-10 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.15) 0px, rgba(240, 240, 240, 0.15) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-30 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-30 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-25 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-25 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-20 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-20 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-15 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-15 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-5 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-5 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-0 .s-ctner-menus .current {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-opacity-0 .s-ctner-menus .current:hover {
+	color: rgb(51, 51, 51) !important; background-image: linear-gradient(rgba(240, 240, 240, 0.1) 0px, rgba(240, 240, 240, 0.1) 100%) !important; background-color: transparent !important;
+}
+.s-skin-hasbg .s-ctner-menus .current {
+	_filter: none; _color: #fff; _background-color: #9a9da2;
+}
+.s-skin-hasbg .s-ctner-menus .current:hover {
+	_filter: none; _color: #fff; _background-color: #9a9da2;
+}
+.s-top-wrap .s-bg-space {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.s-top-wrap .s-menu-item {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.s-card-split {
+	height: 363px; overflow: hidden;
+}
+.s-ctner-menus .s_shopping.s-menu-item {
+	position: relative;
+}
+.menus-wrapper .s-oly-nav {
+	position: relative;
+}
+.s-tips .s-ctner-menus .s-oly-nav .s-card-plus-tip {
+	left: -104px; width: 182px; height: 40px;
+}
+.s-tips .s-ctner-menus .s-oly-nav .s-card-plus-tip .wrap {
+	padding: 0px 7px; width: 170px; height: 40px;
+}
+.s-skin-hasbg .s-ctner-menus .s-oly-nav .s-card-plus-tip {
+	width: 184px; height: 42px;
+}
+.s-tips .s-ctner-menus .s-oly-nav .s-card-plus-tip .btn-close {
+	left: 168px;
+}
+.sub-anipic {
+	background-clip: padding-box; -moz-background-clip: padding; -webkit-background-clip: padding-box;
+}
