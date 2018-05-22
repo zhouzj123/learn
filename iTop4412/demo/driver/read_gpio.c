@@ -28,7 +28,7 @@ static int read_gpio_release(struct inode *inode, struct file *file)
 
 static long read_gpio_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 {
-	printk("cmd is %d,arg is %d\n",cmd,arg);
+	printk("cmd is %d,arg is %ld\n",cmd,arg);
 
 	if(cmd > 1)
 		printk(KERN_EMERG "cmd is 0 or 1\n");
@@ -36,10 +36,10 @@ static long read_gpio_ioctl(struct file *file, unsigned int cmd, unsigned long a
 		printk(KERN_EMERG "arg is only 1\n");
 
 	if(cmd == 0){
-		return gpio_get_value(EXYNOS4_GPC0(3));
+		printk(KERN_EMERG"EXYNOS4_GPC0(3) = %d\n", gpio_get_value(EXYNOS4_GPC0(3))) ;
 	}
 	if(cmd == 1){
-		return gpio_get_value(EXYNOS4_GPX0(6));
+		printk(KERN_EMERG"EXYNOS4_GPX0(6) = %d\n",gpio_get_value(EXYNOS4_GPX0(6)));
 	}
 	return 0;
 }
@@ -59,15 +59,25 @@ static struct miscdevice read_gpio_dev = {
 
 static int read_gpio_probe(struct platform_device *pdev)
 {
-	int ret1, ret2;
+	int ret;
 	printk(KERN_EMERG "initialized\n");
-	ret1 = gpio_request(EXYNOS4_GPC0(3), "SWITCH3");
-	ret2 = gpio_request(EXYNOS4_GPX0(6),"SWITCH4");
+	gpio_free(EXYNOS4_GPX0(6));
+	gpio_free(EXYNOS4_GPC0(3));
 	
-	if(ret1 < 0 || ret2 < 0){
-		printk(KERN_EMERG "gpio_request EXYNOS4_GPC0(x)failed!\n");
+	ret = gpio_request(EXYNOS4_GPC0(3), "SWITCH3");
+	if(ret < 0){
+		printk(KERN_EMERG "gpio_request EXYNOS4_GPC0(3)failed!\n");
 		return ret;		
-	}else {
+	}
+
+	
+	ret = gpio_request(EXYNOS4_GPX0(6),"SWITCH4");
+	if(ret < 0){
+		printk(KERN_EMERG "gpio_request EXYNOS4_GPX0(6)failed!\n");
+		return ret;		
+	}
+
+	else {
 		s3c_gpio_cfgpin(EXYNOS4_GPC0(3), S3C_GPIO_INPUT);
 		s3c_gpio_cfgpin(EXYNOS4_GPX0(6), S3C_GPIO_INPUT);
 		
@@ -76,11 +86,14 @@ static int read_gpio_probe(struct platform_device *pdev)
 	}
 	
 	misc_register(&read_gpio_dev);
+	return 0;
 }
 
 static int read_gpio_remove(struct platform_device *pdev)
 {
 	printk(KERN_EMERG "\tremove\n");
+	gpio_free(EXYNOS4_GPX0(6));
+	gpio_free(EXYNOS4_GPC0(3));
 	misc_deregister(&read_gpio_dev);
 	return 0;	
 }
@@ -90,7 +103,7 @@ static void read_gpio_shutdown(struct platform_device *pdev)
 	;
 }
 
-static int read_gpio_suspend(struct platform_device *pdev)
+static int read_gpio_suspend(struct platform_device *pdev, pm_message_t state)
 {
 	return 0;
 }
