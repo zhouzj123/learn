@@ -4,9 +4,13 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/ioctl.h>
-
+ 
 #include "sama5d36_led.h"
+<<<<<<< HEAD   (6321ea 这是一个测试)
 //test + test2
+=======
+//test333
+>>>>>>> BRANCH (18683e test3)
 int main()
 {
 	int fd;
