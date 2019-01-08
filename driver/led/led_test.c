@@ -6,7 +6,7 @@
 #include <sys/ioctl.h>
 
 #include "sama5d36_led.h"
-//test
+//test + test2
 int main()
 {
 	int fd;
